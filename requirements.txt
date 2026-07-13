@@ -1,0 +1,21 @@
+# requirements.txt
+# ========== Web 框架 ==========
+fastapi==0.115.0
+uvicorn==0.30.6
+python-multipart==0.0.9
+
+# ========== 模型与图像处理 ==========
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.4.0
+torchvision==0.19.0
+pillow==10.4.0
+
+# ========== ONNX 相关 ==========
+onnx==1.16.2
+onnxruntime==1.19.2  # CPU版；GPU环境替换为 onnxruntime-gpu==1.19.2
+
+# ========== 工程化工具 ==========
+pydantic-settings==2.4.0
+python-dotenv==1.0.1
+psutil==6.0.0        # 内存占用测量
+numpy==1.26.4
