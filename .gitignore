@@ -32,3 +32,8 @@ logs/
 # 临时测试文件
 test.jpg
 test\*.png
+
+# 大模型文件
+models/\*.onnx
+models/\*.pth
+models/\*.bin
