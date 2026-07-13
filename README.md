@@ -63,7 +63,7 @@ resnet_onnx_project/
 ### 1. 克隆项目
 
 ```
-git clone <你的GitHub仓库地址>
+git clone git@github.com:hushilei0918/resnet50_onnx_project.git
 cd resnet_onnx_project
 ```
 
@@ -81,7 +81,7 @@ source venv/bin/activate
 pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
-### 3. 导出 ONNX 模型（可选，models 目录已附带基础模型）
+### 3. 导出 ONNX 模型
 
 ```
 python tests/export_onnx.py
