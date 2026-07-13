@@ -34,6 +34,6 @@ test.jpg
 test\*.png
 
 # 大模型文件
-models/\*.onnx
-models/\*.pth
-models/\*.bin
+\*.onnx
+\*.pth
+\*.bin
