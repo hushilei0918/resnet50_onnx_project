@@ -63,7 +63,7 @@ resnet_onnx_project/
 ### 1. 克隆项目
 
 ```
-git clone git@github.com:hushilei0918/resnet50_onnx_project.git
+git clone git@github.com:hsl2345/resnet50_onnx_project.git
 cd resnet_onnx_project
 ```
 
